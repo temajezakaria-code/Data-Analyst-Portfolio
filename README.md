@@ -9,6 +9,9 @@
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-8A2BE2?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
@@ -18,10 +21,11 @@ move more deliberately into data. I'm looking to break into a Data Analyst role
 where I can turn messy business data into something a team can actually act on.
 
 **Core skills:** SQL (joins, CTEs, window functions) · Python (Pandas, NumPy,
-Matplotlib) · Excel (pivot tables, VLOOKUP/INDEX-MATCH, conditional formatting)
-
-· Power BI (data modeling, DAX, dashboard design) · data cleaning ·
+Matplotlib, scikit-learn) · Excel (pivot tables, VLOOKUP/INDEX-MATCH, conditional formatting)
+· Power BI (data modeling, DAX, dashboard design) · Machine Learning (classification, SHAP explainability) · data cleaning ·
 business analysis · data storytelling
+
+## Projects
 
 ### [NorthStar Retail Group — Retail Analytics](https://github.com/temajezakaria-code/northstar-retail-analytics)
 
@@ -33,4 +37,20 @@ business analysis · data storytelling
 
 **Results:** Identified a 41.8% revenue concentration in 2 of 5 regions and a steep month-1 customer retention cliff, leading to a targeted recommendation projected to add ~$364K in incremental revenue.
 
+### [PrimeBank Customer Retention Intelligence](https://github.com/temajezakaria-code/primebank-churn-intelligence)
+
+**Goal:** Predict which bank customers are at risk of churning, and determine whether it's actually profitable to intervene.
+
+**Description:** A full machine learning pipeline on a real 10,000-customer bank dataset — SQL analysis, statistical hypothesis testing (chi-square, t-tests), a Gradient Boosting churn model with SHAP explainability, a cost-sensitive business economics analysis, and a live deployed Streamlit app for real-time predictions.
+
+**Skills:** SQL, statistical hypothesis testing, machine learning (classification, cross-validation), model explainability (SHAP), cost-sensitive decision analysis, app deployment.
+
+**Results:** Built a model with 0.869 ROC-AUC, statistically confirmed that Germany churns at 2x the rate of other markets (p ≈ 3.8×10⁻⁶⁶), and found that a naive "target everyone" retention strategy would lose $49,125, while the model's optimized threshold generates ~$62,750/year in projected net value.
+
 *More projects coming soon.*
+
+ [temajezakaria@gmail.com](mailto:temajezakaria@gmail.com)
+
+---
+
+© 2026 Temaje Zakaria. All rights reserved.
