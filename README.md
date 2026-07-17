@@ -23,22 +23,14 @@ Matplotlib) · Excel (pivot tables, VLOOKUP/INDEX-MATCH, conditional formatting)
 · Power BI (data modeling, DAX, dashboard design) · data cleaning ·
 business analysis · data storytelling
 
-### [NorthStar Retail Co— Retail Analytics](https://github.com/temajezakaria-code/northstar-retail-analytics)
-**Goal:** Analyze 3 years of retail transaction data to identify revenue trends, 
-customer retention patterns, and regional/category performance risks.
+### [NorthStar Retail Group — Retail Analytics](https://github.com/temajezakaria-code/northstar-retail-analytics)
 
-**Description:** End-to-end analytics project — SQL star-schema database, Python 
-data cleaning and EDA, an Excel KPI dashboard, and a 4-page Power BI executive 
-dashboard design — built on a simulated multi-region retailer's data.
+**Goal:** Analyze 3 years of retail transaction data to identify revenue trends, customer retention patterns, and regional/category performance risks.
 
-**Skills:** SQL (window functions, RFM segmentation, cohort analysis), Python 
-(pandas, NumPy, matplotlib), Excel (pivot tables, conditional formatting, 
-VLOOKUP/INDEX-MATCH), Power BI (data modeling, DAX).
+**Description:** End-to-end analytics project — SQL star-schema database, Python data cleaning and EDA, an Excel KPI dashboard, and a 4-page Power BI executive dashboard design — built on a simulated multi-region retailer's data.
 
-**Results:** Identified a 41.8% revenue concentration in 2 of 5 regions and a 
-steep month-1 customer retention cliff, leading to a targeted recommendation 
-projected to add ~$364K in incremental revenue.
+**Skills:** SQL (window functions, RFM segmentation, cohort analysis), Python (pandas, NumPy, matplotlib), Excel (pivot tables, conditional formatting, VLOOKUP/INDEX-MATCH), Power BI (data modeling, DAX).
+
+**Results:** Identified a 41.8% revenue concentration in 2 of 5 regions and a steep month-1 customer retention cliff, leading to a targeted recommendation projected to add ~$364K in incremental revenue.
 
 *More projects coming soon.*
-
-✉️ [temajezakaria@gmail.com](mailto:temajezakaria@gmail.com)
