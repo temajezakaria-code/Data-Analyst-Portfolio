@@ -47,6 +47,16 @@ business analysis · data storytelling
 
 **Results:** Built a model with 0.869 ROC-AUC, statistically confirmed that Germany churns at 2x the rate of other markets (p ≈ 3.8×10⁻⁶⁶), and found that a naive "target everyone" retention strategy would lose $49,125, while the model's optimized threshold generates ~$62,750/year in projected net value.
 
+### [Meridian Health Network — Hospital Operations Analytics](https://github.com/temajezakaria-code/meridian-health-operations-analytics)
+
+**Goal:** Identify the root causes behind rising ED wait times, uneven staffing, appointment no-shows, and concentrated readmissions across a 4-hospital network, and recommend practical operational fixes.
+
+**Description:** A full operations analytics build on a 414,000-row hospital dataset — SQL bottleneck and cohort analysis, Python statistical testing and time series forecasting, and an Excel/Power BI executive dashboard suite covering Executive Operations, Emergency Department, Staffing, and Patient Flow.
+
+**Skills:** SQL (window functions, CASE-based risk scoring, cohort analysis), Python (hypothesis testing, correlation analysis, Holt-Winters forecasting), Excel (pivot tables, conditional formatting, VLOOKUP/INDEX-MATCH), Power BI dashboard design.
+
+**Results:** Found that ED wait times climbed structurally (46.6 → 64.0 min average, 2023-2025) and Night shifts run understaffed network-wide (80-85% vs. 93% on Day/Evening) — but directly tested (not assumed) whether the two were causally linked, honestly reporting a non-significant result at the data granularity available. Delivered 15 insights and 15 recommendations, including a fast-track pathway for low-acuity ED patients projected to be the highest-leverage fix.
+
 *More projects coming soon.*
 
  [temajezakaria@gmail.com](mailto:temajezakaria@gmail.com)
