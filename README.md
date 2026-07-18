@@ -57,6 +57,16 @@ business analysis · data storytelling
 
 **Results:** Found that ED wait times climbed structurally (46.6 → 64.0 min average, 2023-2025) and Night shifts run understaffed network-wide (80-85% vs. 93% on Day/Evening) — but directly tested (not assumed) whether the two were causally linked, honestly reporting a non-significant result at the data granularity available. Delivered 15 insights and 15 recommendations, including a fast-track pathway for low-acuity ED patients projected to be the highest-leverage fix.
 
+### [Apex Distribution Group — Supply Chain & Inventory Intelligence](https://github.com/temajezakaria-code/apex-supply-chain-intelligence)
+
+**Goal:** Identify the root causes behind stockouts, supplier delivery delays, and uneven fulfillment performance across a 6-warehouse, 15-supplier distribution network, and recommend practical operational fixes.
+
+**Description:** A full supply chain analytics build on a 390,000-row dataset — SQL ABC/Pareto classification and supplier risk scoring, Python statistical root-cause testing and demand forecasting, and an Excel/Power BI dashboard suite covering Executive, Warehouse, Supplier, and Inventory views.
+
+**Skills:** SQL (window functions, Pareto analysis, compound risk scoring), Python (chi-square testing, correlation analysis, Holt-Winters forecasting), Excel (pivot tables, conditional formatting, VLOOKUP/INDEX-MATCH), Power BI dashboard design.
+
+**Results:** Confirmed a real ABC revenue concentration (13% of SKUs drive 46% of revenue) and a striking 22.5-point fulfillment gap between Online (68.9%) and Store (91.4%) perfect-order rates — while directly testing (not assuming) whether supplier delivery delays explain stockouts, honestly reporting a non-significant result and redirecting the top recommendation toward inventory forecasting instead.
+
 *More projects coming soon.*
 
  [temajezakaria@gmail.com](mailto:temajezakaria@gmail.com)
