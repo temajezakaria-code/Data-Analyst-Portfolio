@@ -77,6 +77,16 @@ business analysis · data storytelling
 
 **Results:** Found that all 30 of 30 tests in the portfolio were statistically underpowered to detect a typical 5% relative lift, including tests that would appear adequately sized under informal review. The single largest revenue-lift estimate in the portfolio ($2.27 per user) was associated with a non-significant result, illustrating how a primary-metric-only evaluation could discard a genuinely promising finding due to insufficient power rather than an absence of effect.
 
+### [Nova Home Goods — Marketing Attribution & Media Mix Modeling](https://github.com/temajezakaria-code/nova-attribution-analytics)
+
+**Goal:** Determine whether multi-touch attribution methods (Markov chain, Shapley Value) recover a more accurate picture of marketing channel value than last-click attribution, and quantify the answer against a known ground truth rather than asserting it.
+
+**Description:** An attribution modeling study built on a 20,000-journey dataset with programmed ground truth, implementing Markov chain removal-effect and exact Shapley Value attribution from first principles, validated via Spearman rank correlation. Includes media mix response-curve analysis identifying channels operating past their point of efficient marginal return.
+
+**Skills:** SQL (multiple attribution models, path analysis), statistical and game-theoretic methods (Markov chains, Shapley values, rank correlation), Excel (pivot tables, conditional formatting, VLOOKUP/INDEX-MATCH), Power BI dashboard design, media mix modeling.
+
+**Results:** Found that last-click attribution has the weakest correspondence with true channel value (0.476 rank correlation) of four models tested, while Shapley Value and Linear attribution tied for strongest (0.619 each) — an honestly-reported result that didn't favor the more sophisticated method. Identified that Paid Search, the largest budget line item, returns only $0.57 per dollar spent, well past its point of efficient marginal return.
+
 *More projects coming soon.*
 
  [temajezakaria@gmail.com](mailto:temajezakaria@gmail.com)
