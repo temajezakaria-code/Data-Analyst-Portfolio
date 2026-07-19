@@ -1,6 +1,20 @@
 
 # Temaje Zakaria — Data Analyst Portfolio
 
+I turn messy business data into decisions leadership can actually act on. Six
+end-to-end projects — SQL, Python, Excel, Power BI — each built the way a working
+analyst actually works: find the real answer, even when it's inconvenient, and put
+a dollar figure on the recommendation. A few examples: a **$364K revenue
+opportunity** I quantified in a retail dataset, a churn model that would have
+**lost $49,125** if deployed naively, and a finding that **all 30 of 30** A/B tests
+in one portfolio were too small to trust — the kind of result most analysts don't
+go looking for, because it complicates the story.
+
+I graduated from Humber College (Business Management, 2022) and completed a
+Business Analytics Certificate from Seneca College in 2025 to make this shift
+deliberately, not accidentally. I'm looking to bring that same instinct — get the
+number right, then say what it means for business.
+
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -15,81 +29,102 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-Hi, I'm Temaje. I graduated from Humber College with a background in Business
-Management in 2022, and in 2025 I completed a Business Analytics Certificate from Seneca College to
-move more deliberately into data. I'm looking to break into a Data Analyst role
-where I can turn messy business data into something a team can actually act on.
-
 **Core skills:** SQL (joins, CTEs, window functions) · Python (Pandas, NumPy,
-Matplotlib, scikit-learn) · Excel (pivot tables, VLOOKUP/INDEX-MATCH, conditional formatting)
-· Power BI (data modeling, DAX, dashboard design) · Machine Learning (classification, SHAP explainability) · data cleaning ·
-business analysis · data storytelling
+Matplotlib, scikit-learn) · Excel (pivot tables, VLOOKUP/INDEX-MATCH, conditional
+formatting) · Power BI (data modeling, DAX, dashboard design) · Machine Learning
+(classification, SHAP explainability) · statistical hypothesis testing · data
+storytelling
 
 ## Projects
 
-### [NorthStar Retail Group — Retail Analytics](https://github.com/temajezakaria-code/northstar-retail-analytics)
-
-**Goal:** Analyze 3 years of retail transaction data to identify revenue trends, customer retention patterns, and regional/category performance risks.
-
-**Description:** End-to-end analytics project — SQL star-schema database, Python data cleaning and EDA, an Excel KPI dashboard, and a 4-page Power BI executive dashboard design — built on a simulated multi-region retailer's data.
-
-**Skills:** SQL (window functions, RFM segmentation, cohort analysis), Python (pandas, NumPy, matplotlib), Excel (pivot tables, conditional formatting, VLOOKUP/INDEX-MATCH), Power BI (data modeling, DAX).
-
-**Results:** Identified a 41.8% revenue concentration in 2 of 5 regions and a steep month-1 customer retention cliff, leading to a targeted recommendation projected to add ~$364K in incremental revenue.
-
-### [PrimeBank Customer Retention Intelligence](https://github.com/temajezakaria-code/primebank-churn-intelligence)
-
-**Goal:** Predict which bank customers are at risk of churning, and determine whether it's actually profitable to intervene.
-
-**Description:** A full machine learning pipeline on a real 10,000-customer bank dataset — SQL analysis, statistical hypothesis testing (chi-square, t-tests), a Gradient Boosting churn model with SHAP explainability, a cost-sensitive business economics analysis, and a live deployed Streamlit app for real-time predictions.
-
-**Skills:** SQL, statistical hypothesis testing, machine learning (classification, cross-validation), model explainability (SHAP), cost-sensitive decision analysis, app deployment.
-
-**Results:** Built a model with 0.869 ROC-AUC, statistically confirmed that Germany churns at 2x the rate of other markets (p ≈ 3.8×10⁻⁶⁶), and found that a naive "target everyone" retention strategy would lose $49,125, while the model's optimized threshold generates ~$62,750/year in projected net value.
-
-### [Meridian Health Network — Hospital Operations Analytics](https://github.com/temajezakaria-code/meridian-health-operations-analytics)
-
-**Goal:** Identify the root causes behind rising ED wait times, uneven staffing, appointment no-shows, and concentrated readmissions across a 4-hospital network, and recommend practical operational fixes.
-
-**Description:** A full operations analytics build on a 414,000-row hospital dataset — SQL bottleneck and cohort analysis, Python statistical testing and time series forecasting, and an Excel/Power BI executive dashboard suite covering Executive Operations, Emergency Department, Staffing, and Patient Flow.
-
-**Skills:** SQL (window functions, CASE-based risk scoring, cohort analysis), Python (hypothesis testing, correlation analysis, Holt-Winters forecasting), Excel (pivot tables, conditional formatting, VLOOKUP/INDEX-MATCH), Power BI dashboard design.
-
-**Results:** Found that ED wait times climbed structurally (46.6 → 64.0 min average, 2023-2025) and Night shifts run understaffed network-wide (80-85% vs. 93% on Day/Evening) — but directly tested (not assumed) whether the two were causally linked, honestly reporting a non-significant result at the data granularity available. Delivered 15 insights and 15 recommendations, including a fast-track pathway for low-acuity ED patients projected to be the highest-leverage fix.
-
-### [Apex Distribution Group — Supply Chain & Inventory Intelligence](https://github.com/temajezakaria-code/apex-supply-chain-intelligence)
-
-**Goal:** Identify the root causes behind stockouts, supplier delivery delays, and uneven fulfillment performance across a 6-warehouse, 15-supplier distribution network, and recommend practical operational fixes.
-
-**Description:** A full supply chain analytics build on a 390,000-row dataset — SQL ABC/Pareto classification and supplier risk scoring, Python statistical root-cause testing and demand forecasting, and an Excel/Power BI dashboard suite covering Executive, Warehouse, Supplier, and Inventory views.
-
-**Skills:** SQL (window functions, Pareto analysis, compound risk scoring), Python (chi-square testing, correlation analysis, Holt-Winters forecasting), Excel (pivot tables, conditional formatting, VLOOKUP/INDEX-MATCH), Power BI dashboard design.
-
-**Results:** Confirmed a real ABC revenue concentration (13% of SKUs drive 46% of revenue) and a striking 22.5-point fulfillment gap between Online (68.9%) and Store (91.4%) perfect-order rates — while directly testing (not assuming) whether supplier delivery delays explain stockouts, honestly reporting a non-significant result and redirecting the top recommendation toward inventory forecasting instead.
+---
 
 ### [Vertex Commerce — A/B Testing & Experimentation Analytics](https://github.com/temajezakaria-code/vertex-experimentation-analytics)
 
-**Goal:** Evaluate whether a portfolio of 30 A/B tests was conducted with genuine statistical rigor — properly powered, checked against guardrail metrics, and free of common experimentation pitfalls — rather than assessing individual test outcomes in isolation.
+![Vertex Preview](https://raw.githubusercontent.com/temajezakaria-code/vertex-experimentation-analytics/main/images/dashboard1_executive_summary.png)
 
-**Description:** An experimentation analytics study built on a 433,900-observation dataset with programmed ground truth, allowing statistical findings to be verified against known effects rather than accepted at face value. Includes SQL-computed two-proportion z-tests and sample ratio mismatch checks, formal statistical power analysis, novelty-decay curve fitting, and an Excel/Power BI dashboard suite evaluating program-level health rather than individual results.
+**Goal:** Determine whether a portfolio of 30 A/B tests was conducted with genuine statistical rigor — properly powered, checked against guardrail metrics, and free of common experimentation pitfalls.
 
-**Skills:** SQL (manually-derived statistical tests, CTEs, window functions), statistical methods (hypothesis testing, power analysis, meta-analysis), Excel (pivot tables, conditional formatting, VLOOKUP/INDEX-MATCH), Power BI dashboard design, experimentation methodology.
+**Description:** An experimentation analytics study on 433,900 observations with programmed ground truth, including SQL-computed two-proportion z-tests, formal statistical power analysis, and novelty-decay curve fitting.
 
-**Results:** Found that all 30 of 30 tests in the portfolio were statistically underpowered to detect a typical 5% relative lift, including tests that would appear adequately sized under informal review. The single largest revenue-lift estimate in the portfolio ($2.27 per user) was associated with a non-significant result, illustrating how a primary-metric-only evaluation could discard a genuinely promising finding due to insufficient power rather than an absence of effect.
+**Skills:** SQL (manually-derived statistical tests), statistical methods (power analysis, meta-analysis), Excel, Power BI dashboard design.
+
+**Results:** Found that **all 30 of 30 tests** were statistically underpowered to detect a typical 5% relative lift. The single largest revenue-lift result in the portfolio (**$2.27 per user**) came from a test that wasn't statistically significant — a promising finding a primary-metric-only review would have discarded.
+
+---
 
 ### [Nova Home Goods — Marketing Attribution & Media Mix Modeling](https://github.com/temajezakaria-code/nova-attribution-analytics)
 
-**Goal:** Determine whether multi-touch attribution methods (Markov chain, Shapley Value) recover a more accurate picture of marketing channel value than last-click attribution, and quantify the answer against a known ground truth rather than asserting it.
+![Nova Preview](https://raw.githubusercontent.com/temajezakaria-code/nova-attribution-analytics/main/images/dashboard1_executive_summary.png)
 
-**Description:** An attribution modeling study built on a 20,000-journey dataset with programmed ground truth, implementing Markov chain removal-effect and exact Shapley Value attribution from first principles, validated via Spearman rank correlation. Includes media mix response-curve analysis identifying channels operating past their point of efficient marginal return.
+**Goal:** Determine whether multi-touch attribution methods (Markov chain, Shapley Value) recover a more accurate picture of marketing channel value than last-click attribution.
 
-**Skills:** SQL (multiple attribution models, path analysis), statistical and game-theoretic methods (Markov chains, Shapley values, rank correlation), Excel (pivot tables, conditional formatting, VLOOKUP/INDEX-MATCH), Power BI dashboard design, media mix modeling.
+**Description:** An attribution modeling study on 20,000 customer journeys with programmed ground truth, implementing Markov chain and exact Shapley Value attribution from first principles.
 
-**Results:** Found that last-click attribution has the weakest correspondence with true channel value (0.476 rank correlation) of four models tested, while Shapley Value and Linear attribution tied for strongest (0.619 each) — an honestly-reported result that didn't favor the more sophisticated method. Identified that Paid Search, the largest budget line item, returns only $0.57 per dollar spent, well past its point of efficient marginal return.
+**Skills:** SQL, statistical and game-theoretic methods (Markov chains, Shapley values), Excel, Power BI dashboard design.
 
-*More projects coming soon.*
+**Results:** Last-click attribution had the weakest correspondence with true channel value (**0.476 rank correlation**) of four models tested; Shapley Value and Linear attribution tied for strongest (**0.619 each**). Identified a channel returning only **$0.57 per dollar spent** — well past its point of efficient return.
 
- [temajezakaria@gmail.com](mailto:temajezakaria@gmail.com)
+---
+
+### [PrimeBank Customer Retention Intelligence](https://github.com/temajezakaria-code/primebank-churn-intelligence)
+
+![PrimeBank Preview](https://raw.githubusercontent.com/temajezakaria-code/primebank-churn-intelligence/main/images/shap_summary.png)
+
+**Goal:** Predict which bank customers are at risk of churning, and determine whether it's actually profitable to intervene.
+
+**Description:** A full machine learning pipeline on a real 10,000-customer bank dataset — SQL analysis, statistical hypothesis testing, a Gradient Boosting model with SHAP explainability, and a cost-sensitive business economics analysis.
+
+**Skills:** SQL, statistical hypothesis testing, machine learning, model explainability (SHAP), cost-sensitive decision analysis.
+
+**Results:** Built a model with **0.869 ROC-AUC**, statistically confirmed Germany churns at 2x the rate of other markets, and found a naive "target everyone" strategy would **lose $49,125**, while the model's optimized threshold generates **~$62,750/year** in projected value.
+
+---
+
+### [NorthStar Retail Group — Retail Analytics](https://github.com/temajezakaria-code/northstar-retail-analytics)
+
+![NorthStar Preview](https://raw.githubusercontent.com/temajezakaria-code/northstar-retail-analytics/main/images/dashboard_preview.gif)
+
+**Goal:** Analyze 3 years of retail transaction data to identify revenue trends, customer retention patterns, and regional/category performance risks.
+
+**Description:** End-to-end analytics project — SQL star-schema database, Python data cleaning and EDA, an Excel KPI dashboard, and a 4-page Power BI executive dashboard design.
+
+**Skills:** SQL (window functions, RFM segmentation, cohort analysis), Python, Excel, Power BI.
+
+**Results:** Identified a **41.8% revenue concentration** in 2 of 5 regions and a steep month-1 customer retention cliff, leading to a recommendation projected to add **~$364K** in incremental revenue.
+
+---
+
+### [Meridian Health Network — Hospital Operations Analytics](https://github.com/temajezakaria-code/meridian-health-operations-analytics)
+
+![Meridian Preview](https://raw.githubusercontent.com/temajezakaria-code/meridian-health-operations-analytics/main/images/dashboard1_executive_operations.png)
+
+**Goal:** Identify the root causes behind rising ED wait times, uneven staffing, appointment no-shows, and concentrated readmissions across a 4-hospital network.
+
+**Description:** A full operations analytics build on a 414,000-row hospital dataset — SQL bottleneck analysis, Python statistical testing and forecasting, and an Excel/Power BI dashboard suite.
+
+**Skills:** SQL (window functions, cohort analysis), Python (hypothesis testing, forecasting), Excel, Power BI.
+
+**Results:** Found ED wait times climbed **46.6 → 64.0 minutes** (2023-2025) and Night shifts run understaffed network-wide — but directly tested (not assumed) whether the two were causally linked, honestly reporting a non-significant result.
+
+---
+
+### [Apex Distribution Group — Supply Chain & Inventory Intelligence](https://github.com/temajezakaria-code/apex-supply-chain-intelligence)
+
+![Apex Preview](https://raw.githubusercontent.com/temajezakaria-code/apex-supply-chain-intelligence/main/images/dashboard1_executive_supply_chain.png)
+
+**Goal:** Identify the root causes behind stockouts, supplier delivery delays, and uneven fulfillment performance across a 6-warehouse distribution network.
+
+**Description:** A full supply chain analytics build on a 390,000-row dataset — SQL ABC/Pareto classification, Python root-cause testing and demand forecasting, and an Excel/Power BI dashboard suite.
+
+**Skills:** SQL (Pareto analysis, risk scoring), Python (chi-square testing, forecasting), Excel, Power BI.
+
+**Results:** Confirmed a real ABC revenue concentration (**13% of SKUs drive 46% of revenue**) and a **22.5-point fulfillment gap** between Online and Store — while honestly reporting that supplier delays don't significantly explain stockouts.
+
+---
+
+
+✉️ [temajezakaria@gmail.com](mailto:temajezakaria@gmail.com)
 
 ---
 
