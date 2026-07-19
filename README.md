@@ -67,6 +67,16 @@ business analysis · data storytelling
 
 **Results:** Confirmed a real ABC revenue concentration (13% of SKUs drive 46% of revenue) and a striking 22.5-point fulfillment gap between Online (68.9%) and Store (91.4%) perfect-order rates — while directly testing (not assuming) whether supplier delivery delays explain stockouts, honestly reporting a non-significant result and redirecting the top recommendation toward inventory forecasting instead.
 
+### [Vertex Commerce — A/B Testing & Experimentation Analytics](https://github.com/temajezakaria-code/vertex-experimentation-analytics)
+
+**Goal:** Evaluate whether a portfolio of 30 A/B tests was conducted with genuine statistical rigor — properly powered, checked against guardrail metrics, and free of common experimentation pitfalls — rather than assessing individual test outcomes in isolation.
+
+**Description:** An experimentation analytics study built on a 433,900-observation dataset with programmed ground truth, allowing statistical findings to be verified against known effects rather than accepted at face value. Includes SQL-computed two-proportion z-tests and sample ratio mismatch checks, formal statistical power analysis, novelty-decay curve fitting, and an Excel/Power BI dashboard suite evaluating program-level health rather than individual results.
+
+**Skills:** SQL (manually-derived statistical tests, CTEs, window functions), statistical methods (hypothesis testing, power analysis, meta-analysis), Excel (pivot tables, conditional formatting, VLOOKUP/INDEX-MATCH), Power BI dashboard design, experimentation methodology.
+
+**Results:** Found that all 30 of 30 tests in the portfolio were statistically underpowered to detect a typical 5% relative lift, including tests that would appear adequately sized under informal review. The single largest revenue-lift estimate in the portfolio ($2.27 per user) was associated with a non-significant result, illustrating how a primary-metric-only evaluation could discard a genuinely promising finding due to insufficient power rather than an absence of effect.
+
 *More projects coming soon.*
 
  [temajezakaria@gmail.com](mailto:temajezakaria@gmail.com)
